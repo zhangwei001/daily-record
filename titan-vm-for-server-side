@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="//img.alicdn.com/tfs/TB1aU4uEpT7gK0jSZFpXXaTkpXa-48-48.ico">
+    <title>Titan</title>
+    <meta name="aplus-waiting" content="MAN">
+    <meta name="aplus-rhost-g" content="sg.mmstat.com">
+    <meta name="aplus-rhost-v" content="sg.mmstat.com">
+    <meta name="aplus-x-settings" content='{"aplus-rhost-v":"sg.mmstat.com","aplus-rhost-g":"sg.mmstat.com"}'>
+    <meta name="data-spm" content="titan">
+    <link rel="stylesheet" href="//g.alicdn.com/mmfe/cdn/code/theme/fusion-theme-27318.mini.css">
+    <link rel="stylesheet" href="//g.alicdn.com/code/lib/antd/4.17.3/antd.min.css">
+
+    <!-- AEM https://aem.alibaba-inc.com/project/titan -->
+    <meta name="aes-config" content="pid=titan&user_type=14&uid=${userEmpId}&username=${userLastName}"/>
+
+    <!-- system js for single-spa -->
+    <script type="systemjs-importmap">{ "imports": ${systemjsImportMap} }</script>
+    <link rel="preload" href="//g.alicdn.com/code/lib/single-spa/5.1.1/system/single-spa.min.js" as="script"
+          crossorigin="anonymous"/>
+
+    <script src="//g.alicdn.com/code/lib/systemjs/6.2.6/system.min.js"></script>
+    <script src="//g.alicdn.com/code/lib/systemjs/6.2.6/extras/amd.min.js"></script>
+    <script src="//g.alicdn.com/code/lib/systemjs/6.2.6/extras/named-exports.min.js"></script>
+    <script src="//g.alicdn.com/code/lib/systemjs/6.2.6/extras/named-register.min.js"></script>
+
+    <!-- init data -->
+    <script>window.INIT_DATA = ${initDataMap};</script>
+</head>
+<body data-spm="body">
+<script type="text/javascript" id="beacon-aplus" src="//laz-g-cdn.alicdn.com/alilog/mlog/aplus_v2.js" exparams="clog=o&aplus&sidx=aplusSidx&ckx=aplusCkx"></script>
+<script>System.import('titan-app');</script>
+</body>
+</html>
